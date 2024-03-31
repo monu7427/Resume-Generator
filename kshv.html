@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main" style="width: 30vw; height: 20vh; background-color: aqua; padding: 10px;">
+
+    </div>
+    <button onclick="run()">Change</button>
+
+
+    <script>
+        var main = document.getElementById('main');
+        function run(){
+            var h1tag = document.createElement('h1');
+            h1tag.innerText = "Manoj Sharma";
+            main.appendChild(h1tag);
+            console.log("hello im runn")
+        }
+    </script>
+    
+</body>
+</html>
